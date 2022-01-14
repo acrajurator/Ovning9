@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Bish-Bosh 2.0</h1>
+
+    <p>Bish-Bosh listar alla tal mellan 1 och det användaren väljer, men vissa undantag: Om talet är jämnt delbart med
+        Bish listas ​‘Bish’
+        ​istället ​för talet. Om talet är jämnt delbart med Bosh listas ‘​Bosh​’ ​istället ​förtalet. Om talet är jämnt
+        delbart med både med Bish och Bosh skrivs “​Bish-Bosh​” ​istället ​för talet.</p>
+
+    <form id="loginForm">
+        <div class="tooltip">Bish
+            <input type="number" min="1" oninput="validity.valid||(value='');" id="bish" placeholder="bish">
+            <span class="tooltiptext">Bish</span>
+        </div>
+        <div class="tooltip">Bosh
+            <input type="number" min="1" oninput="validity.valid||(value='');" id="bosh" placeholder="bosh">
+       
+            <span class="tooltiptext">Bosh</span>
+          </div>
+
+        <div class="tooltip">Size
+            <input type="number" min="1" oninput="validity.valid||(value='');" id="size" placeholder="size">
+       
+            <span class="tooltiptext">Size of the loop</span>
+          </div>
+    </select>
+        <button type="submit" id="formBtn">Submit</button>
+    </form>
+
+    <p id="output"></p>
+    <footer>
+
+        <p>© 2022 Acrajurator<br>
+            <a href="mailto:madeup@example.com">madeup@example.com</a>
+        </p>
+    </footer>
+
+    <script src="bishbosh.js"></script>
+</body>
+
+</html>

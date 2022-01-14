@@ -1,0 +1,15 @@
+footer{
+    position: absolute;
+    bottom: 0;
+}
+.active{
+    background-color: red;
+text-decoration: line-through;
+  }
+
+  #btn{
+      padding-left: 10;
+  background-color: #4CAF50; /* Green */
+
+  }
+  
