@@ -19,14 +19,14 @@ btn.addEventListener('click', function (event) {
         var entry = document.createElement('li');
         var b = document.createElement('button');
         b.id = 'btn';
-        b.textContent = 'remove item from list';
+        b.textContent = 'remove';
         b.hidden = true;
 
         b.addEventListener('click', function () {
             this.parentElement.remove();
         })
 
-        entry.appendChild(document.createTextNode(amount + ` ` + product));
+        entry.appendChild(document.createTextNode(amount + ` - ` + product));
         entry.appendChild(b);
         entry.addEventListener('click', function () {
             if (this.classList.contains('active')) {

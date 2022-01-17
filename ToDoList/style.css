@@ -6,10 +6,15 @@ footer{
     background-color: red;
 text-decoration: line-through;
   }
+ul{
+    padding: 20px;
+}
+
 
   #btn{
-      padding-left: 10;
-  background-color: #4CAF50; /* Green */
-
+  background-color: #568057; 
+  float: right;
+  max-height: 24px;
+  padding: 0px;
   }
-  
+ 
