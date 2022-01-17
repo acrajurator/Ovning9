@@ -13,7 +13,7 @@ body {
     color: #01490d;
   }
   footer{
-      position: absolute;
+      position: fixed;
       bottom: 0;
   }
   form{
